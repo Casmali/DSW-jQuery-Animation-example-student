@@ -11,9 +11,16 @@
 			$("#button1").click(function() {
 				$("#ex1").animate({left: '250px', width: '+=100px', fontSize: '300%', opacity: '0.4'},"slow");
 			});
-
-			$("#button2").click(function() {
-				//put your animation code here
+			
+			$("#button2").click(function(){
+				$("#ex2").animate({left: '+=50'},"slow");
+				$("#ex2").animate({top: '+=50'},"slow");
+				$("#ex2").animate({left: '+=-50'},"slow");
+				$("#ex2").animate({top: '+=50'},"slow");
+				$("#ex2").animate({left: '+=50'},"slow");
+				$("#ex2").animate({top: '+=-50'},"slow");
+				$("#ex2").animate({left: '+=-50'},"slow");
+				$("#ex2").animate({top: '+=-50'},"slow");
 			});
 		});
 	</script>
@@ -34,6 +41,8 @@
 		#ex2 {
 			margin:auto;
 		}
+		
+		
 	</style>
 </head>
 <body>
